@@ -1,0 +1,13 @@
+header {
+  /*  background: rgb(255,255,255);
+   background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 70%, rgba(14,101,232,0.5075280112044818) 100%); */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(160deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 29%, rgba(14, 101, 232, 0.1601890756) 70%, rgba(14, 101, 232, 0.5075280112) 100%);
+}
+
+@media (max-width: 575.98px) {
+  .get-app {
+    display: block;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

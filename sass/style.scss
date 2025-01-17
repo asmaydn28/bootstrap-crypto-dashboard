@@ -1,6 +1,65 @@
-header.header{
+*{
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #222222;
+}
+
+button.sign-up {
+    background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+    border: none;
+
+    &:hover {
+        background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+    }
+}
+
+button.log-ın {
+    border: 5px solid linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+
+    &:hover {
+        background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+    }
+}
+
+.header-sign-up-today {
+    background: linear-gradient(180deg, rgba(70,142,249,1) 30%, rgba(12,102,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", serif;
+}
+
+.header-the-world {
+    font-family: "Poppins", serif;
+}
+
+.header-fastest {
+    background: linear-gradient(180deg, rgba(70,142,249,1) 59%, rgba(12,102,238,1) 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-get-started{
+    background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+    border: none;
+    &:hover{
+        background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+    }
+}
+
+.header-download-app{
+    &:hover{
+        background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+    }
+}
+
+section.header{
     background: rgb(255,255,255);
     background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(14,101,232,0.1601890756302521) 70%, rgba(14,101,232,0.5075280112044818) 100%);
+    font-family: "Poppins", serif;
 }
 
 @media (max-width: 575.98px) { 

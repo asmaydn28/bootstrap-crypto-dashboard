@@ -56,16 +56,37 @@ button.log-ın {
     }
 }
 
+@media (min-width: 992px) { 
+    .header-before-after::before{
+        content: url(../img/purple-circle.svg);
+        position: absolute;
+        bottom: -15%;
+        left: -15%;
+    }
+    .header-before-after::after{
+        content: url(../img/purple-star.svg);
+        position: absolute;
+        top: 0%;
+        right: 15%;
+    }
+}
+
 section.header{
     background: rgb(255,255,255);
     background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(14,101,232,0.1601890756302521) 70%, rgba(14,101,232,0.5075280112044818) 100%);
     font-family: "Poppins", serif;
 }
 
+.paragraph{
+    font-family: "Poppins", serif;
+    color: #666666;
+}
+
 @media (max-width: 575.98px) { 
-    .get-app{
+    .header-download-app , .header-get-started{
         display: block;
         width: 100%;
+        
     }
  }
 

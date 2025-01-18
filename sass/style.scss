@@ -72,9 +72,10 @@ button.log-ın {
 }
 
 header{
-    background: rgb(255,255,255);
-    background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(14,101,232,0.1601890756302521) 70%, rgba(14,101,232,0.5075280112044818) 100%);
     font-family: "Poppins", serif;
+    background: linear-gradient(161deg, rgba(0,221,255,1) 0%, rgba(0,84,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .paragraph{

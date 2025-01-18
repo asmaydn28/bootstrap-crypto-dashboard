@@ -67,7 +67,7 @@ button.log-ın:hover {
     right: 15%;
   }
 }
-section.header {
+header {
   background: rgb(255, 255, 255);
   background: linear-gradient(160deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 29%, rgba(14, 101, 232, 0.1601890756) 70%, rgba(14, 101, 232, 0.5075280112) 100%);
   font-family: "Poppins", serif;
@@ -83,4 +83,9 @@ section.header {
     display: block;
     width: 100%;
   }
+}
+.crypto-container {
+  position: relative;
+  top: -2.5rem;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

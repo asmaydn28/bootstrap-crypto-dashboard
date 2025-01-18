@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/sass/style.css">
   </head>
   <body>
-    <header>
+    <header class="vh-100">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand me-xxl-5 me-3" href="#"><img src="img/logo.svg" alt="hero_logo"></a>
@@ -57,51 +57,53 @@
               </div>
             </div>
         </nav>
-    </header>
 
-    <section class="header vh-100">
-      <div class="container py-5">
-          <div class="row">
-              <div class="col-12 col-lg-6 text-lg-start text-center d-flex align-items-center justify-content-center">
-                  <div class="header-before-after position-relative">
-                      <h6 class="header-sign-up-today fw-semibold">SIGN UP TODAY</h6>
-                      <h1 class="fw-bold display-4 my-3 header-the-world">The World’s<br><span class="header-fastest">Fastest Growing</span><br>Crypto Web App</h1>
-                      <p class="my-3 d-sm-block d-none paragraph">
-                          Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br> bank transfers or your credit/debit card.
-                      </p>
-                      <button type="button" class="btn btn-primary px-4 py-3 rounded-5 me-3 header-get-started">Get Started</button>
-                      <div class="dropdown d-inline ">
-                          <button class="btn btn-outline-primary dropdown-toggle rounded-5 px-4 py-3 header-download-app mt-sm-0 mt-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Download App
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
+        <section class="header">
+          <div class="container py-5">
+              <div class="row">
+                  <div class="col-12 col-lg-6 text-lg-start text-center d-flex align-items-center justify-content-center">
+                      <div class="header-before-after position-relative">
+                          <h6 class="header-sign-up-today fw-semibold">SIGN UP TODAY</h6>
+                          <h1 class="fw-bold display-4 my-3 header-the-world">The World’s<br><span class="header-fastest">Fastest Growing</span><br>Crypto Web App</h1>
+                          <p class="my-3 d-sm-block d-none paragraph">
+                              Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br> bank transfers or your credit/debit card.
+                          </p>
+                          <button type="button" class="btn btn-primary px-4 py-3 rounded-5 me-3 header-get-started">Get Started</button>
+                          <div class="dropdown d-inline ">
+                              <button class="btn btn-outline-primary dropdown-toggle rounded-5 px-4 py-3 header-download-app mt-sm-0 mt-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Download App
+                              </button>
+                              <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                          </div>
                       </div>
+                      
                   </div>
-                  
-              </div>
-              <div class="col-12 col-lg-6 d-lg-block d-none">
-                  <img src="img/hero-pic.png" alt="crypto_world" class="img-fluid">
+                  <div class="col-12 col-lg-6 d-lg-block d-none">
+                      <img src="img/hero-pic.png" alt="crypto_world" class="img-fluid">
+                  </div>
               </div>
           </div>
-      </div>
-  </section>
+        </section>
+    </header>
 
-    <div class="container p-3 rounded-5 shadow">
+    
+
+    <div class="container py-5 px-3 rounded-5 shadow crypto-container">
       <div class="row">
 
-        <div class="col-4 border-end border-opacity-50">
-          <div class="d-flex justify-content-between">
+        <div class="col-lg-4 col-12 border-end border-opacity-50">
+          <div class="d-flex justify-content-between pb-3">
             <h5>🔥 Trending</h5> 
             <a href="#" class="text-decoration-none">
               More
               <i class="fa-solid fa-chevron-right"></i>
             </a>
           </div>
-          <div class="row px-3">
+          <div class="row">
             <div class="col-4">
               <span class="text-muted">Name</span>
             </div>
@@ -112,7 +114,7 @@
               <span class="text-muted">Chart</span>
             </div>
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/btc.svg" alt="bitcoin">
               <span class="fw-semibold">Bitcoin</span>
@@ -128,7 +130,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/eth.svg" alt="Ethereum">
               <span class="fw-semibold">Ethereum</span>
@@ -144,7 +146,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/solana.svg" alt="solana">
               <span class="fw-semibold">Solana</span>
@@ -160,7 +162,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/doge.svg" alt="doge">
               <span class="fw-semibold">Dogecoin</span>
@@ -177,15 +179,15 @@
           </div>
         </div>
 
-        <div class="col-4 border-end border-opacity-50">
-          <div class="d-flex justify-content-between">
+        <div class="col-lg-4 col-12 border-end border-opacity-50">
+          <div class="d-flex justify-content-between pb-3">
             <h5>🚀 Top Gainers</h5> 
             <a href="#" class="text-decoration-none">
               More
               <i class="fa-solid fa-chevron-right"></i>
             </a>
           </div>
-          <div class="row px-3">
+          <div class="row">
             <div class="col-4">
               <span class="text-muted">Name</span>
             </div>
@@ -196,7 +198,7 @@
               <span class="text-muted">Chart</span>
             </div>
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/pappay.svg" alt="pappay">
               <span class="fw-semibold">Bitcoin</span>
@@ -212,7 +214,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/asia.svg" alt="btcasia">
               <span class="fw-semibold">Ethereum</span>
@@ -228,7 +230,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/moonrock.svg" alt="moonrock">
               <span class="fw-semibold">Solana</span>
@@ -244,7 +246,7 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
               <img src="img/ninja.svg" alt="ninja">
               <span class="fw-semibold">Dogecoin</span>
@@ -261,15 +263,15 @@
           </div>
         </div>
 
-        <div class="col-4 border-end border-opacity-50">
-          <div class="d-flex justify-content-between">
+        <div class="col-lg-4 col-12">
+          <div class="d-flex justify-content-between pb-3">
             <h5>💎 Recently Added</h5> 
             <a href="#" class="text-decoration-none">
               More
               <i class="fa-solid fa-chevron-right"></i>
             </a>
           </div>
-          <div class="row px-3">
+          <div class="row">
             <div class="col-4">
               <span class="text-muted">Name</span>
             </div>
@@ -280,15 +282,47 @@
               <span class="text-muted">Chart</span>
             </div>
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
-              <img src="img/pappay.svg" alt="pappay">
-              <span class="fw-semibold">Bitcoin</span>
+              <img src="img/metacraft.svg" alt="metacraft">
+              <span class="fw-semibold">Metacraft</span>
             </div>
             <div class="col-4">
               <span class="bitcoin">
                 <i class="fa-solid fa-minus" style="color: #F4574D;"></i>
-                $0.00374
+                $0.0608
+              </span>
+            </div>
+            <div class="col-4">
+              <img src="img/negative-graphic.svg" alt="negative">
+            </div>
+            <hr class="opacity-25">
+          </div>
+          <div class="row mt-2 px-2">
+            <div class="col-4">
+              <img src="img/frog.svg" alt="frog">
+              <span class="fw-semibold">Frog</span>
+            </div>
+            <div class="col-4">
+              <span class="bitcoin">
+                <i class="fa-solid fa-minus" style="color: #F4574D;"></i>
+                $0.5875
+              </span>
+            </div>
+            <div class="col-4">
+              <img src="img/negative-graphic.svg" alt="negative">
+            </div>
+            <hr class="opacity-25">
+          </div>
+          <div class="row mt-2 px-2">
+            <div class="col-4">
+              <img src="img/muskdoge.svg" alt="muskdoge">
+              <span class="fw-semibold">Musk Doge</span>
+            </div>
+            <div class="col-4">
+              <span class="bitcoin">
+                <i class="fa-solid fa-plus" style="color: #28C165;"></i>
+                $0.04041
               </span>
             </div>
             <div class="col-4">
@@ -296,47 +330,15 @@
             </div>
             <hr class="opacity-25">
           </div>
-          <div class="row mt-2 px-3">
+          <div class="row mt-2 px-2">
             <div class="col-4">
-              <img src="img/asia.svg" alt="btcasia">
-              <span class="fw-semibold">Ethereum</span>
+              <img src="img/share.svg" alt="2share">
+              <span class="fw-semibold">2Share</span>
             </div>
             <div class="col-4">
               <span class="bitcoin">
                 <i class="fa-solid fa-plus" style="color: #28C165;"></i>
-                $0.02096
-              </span>
-            </div>
-            <div class="col-4">
-              <img src="img/negative-graphic.svg" alt="positive">
-            </div>
-            <hr class="opacity-25">
-          </div>
-          <div class="row mt-2 px-3">
-            <div class="col-4">
-              <img src="img/moonrock.svg" alt="moonrock">
-              <span class="fw-semibold">Solana</span>
-            </div>
-            <div class="col-4">
-              <span class="bitcoin">
-                <i class="fa-solid fa-minus" style="color: #F4574D;"></i>
-                $0.004907
-              </span>
-            </div>
-            <div class="col-4">
-              <img src="img/negative-graphic.svg" alt="positive">
-            </div>
-            <hr class="opacity-25">
-          </div>
-          <div class="row mt-2 px-3">
-            <div class="col-4">
-              <img src="img/ninja.svg" alt="ninja">
-              <span class="fw-semibold">Dogecoin</span>
-            </div>
-            <div class="col-4">
-              <span class="bitcoin">
-                <i class="fa-solid fa-plus" style="color: #28C165;"></i>
-                $0.000123
+                $1,366.24
               </span>
             </div>
             <div class="col-4">

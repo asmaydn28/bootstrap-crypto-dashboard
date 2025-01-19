@@ -9,6 +9,10 @@
   color: #222222;
 }
 
+hr {
+  opacity: 10%;
+}
+
 button.sign-up {
   background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
   border: none;
@@ -69,9 +73,7 @@ button.log-ın:hover {
 }
 header {
   font-family: "Poppins", serif;
-  background: linear-gradient(161deg, rgb(0, 221, 255) 0%, rgb(0, 84, 255) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(158deg, rgb(247, 237, 255) 0%, rgb(249, 253, 255) 32%, rgb(230, 240, 255) 63%, rgb(249, 251, 255) 100%);
 }
 
 .paragraph {
@@ -89,4 +91,14 @@ header {
   position: relative;
   top: -2.5rem;
   background-color: #FFFFFF;
+}
+
+.crypto-container img.img-fluid {
+  height: 2rem;
+}
+
+@media (max-width: 992px) {
+  .border-end {
+    border: none !important;
+  }
 }/*# sourceMappingURL=style.css.map */

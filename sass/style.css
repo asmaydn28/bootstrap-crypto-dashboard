@@ -101,4 +101,26 @@ header {
   .border-end {
     border: none !important;
   }
+}
+/*---------------------------------------*/
+.input-group-text {
+  border-color: rgb(70, 142, 249);
+  color: rgb(70, 142, 249);
+  height: 3.5rem;
+}
+
+.form-control {
+  border-left: none;
+  border-color: rgb(70, 142, 249);
+}
+
+.vertical {
+  height: 2rem;
+  border-right: 1px solid rgb(70, 142, 249);
+  margin-left: 1rem;
+}
+
+.btn {
+  --bs-btn-border-color: rgba(70,142,249,1);
+  height: 3.5rem;
 }/*# sourceMappingURL=style.css.map */

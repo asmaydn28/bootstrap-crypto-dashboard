@@ -113,11 +113,14 @@ header{
    border-color: rgba(70,142,249,1); 
    color: rgba(70,142,249,1);
    height: 3.5rem;
+   border-radius: 22px;
 }
 
-.form-control{
+.form-control , .form-control:focus{
+    box-shadow: none;
     border-left: none;
     border-color:rgba(70,142,249,1);
+    border-radius: 22px;
 }
 
 .vertical{
@@ -126,7 +129,19 @@ header{
     margin-left: 1rem;
 }
 
-.btn{
-    --bs-btn-border-color: rgba(70,142,249,1);
+.vertical2{
+    height: 2rem;
+    border-right: 1px solid rgba(70,142,249,1);
+    margin-left: 3rem;
+}
+
+.btn , .btn:hover , .btn:active{
     height: 3.5rem;
+    border-color: rgba(70,142,249,1);
+    border-radius: 22px;
+}
+
+.buy-now{
+    width: 28rem;
+    
 }

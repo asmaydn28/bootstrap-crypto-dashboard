@@ -108,7 +108,7 @@ header{
         border: none !important;
     }
  }
-/*---------------------------------------*/
+/*-------------------BUY TRADE------------------*/
 .input-group-text{
    border-color: rgba(70,142,249,1); 
    color: rgba(70,142,249,1);
@@ -142,6 +142,115 @@ header{
 }
 
 .buy-now{
-    width: 28rem;
-    
+    width: 100%;
+    background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+    border: none;
+
+    &:hover {
+        background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+    }
 }
+
+.buy-trade-h3{
+    font-family: "Poppins", serif;
+    font-size: 2rem;
+    line-height: 52px;
+    color: #222222;
+}
+
+.buy-trade-p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+}
+
+/* Trusted Partners Worldwide */
+.trusted{
+    background: url(/img/trusted.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trusted-h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #222222;
+    text-align: center;
+}
+
+.trusted-p{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* nefa credit card */
+.nefa-card-h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    color: #222222;
+}
+
+.nefa-card-h3 span{
+    background: linear-gradient(180deg, rgba(70,142,249,1) 59%, rgba(12,102,238,1) 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nefa-card-p{
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.nefa-card ul li{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.nefa-card ul li::before{
+    content: url(/img/blue-check.svg);
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.nefa-card-button{
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+    border: 2px solid linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+
+    &:hover {
+        background: linear-gradient(180deg, rgba(70,142,249,1) 70%, rgba(12,102,238,1) 100%);
+        width: 240px;
+        height: 72px;
+        border-radius: 40px;
+        padding: 10px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .nefa-card-button{
+        width: 100%;
+        height: 72px;
+        border-radius: 40px;
+        padding: 10px;
+        gap: 5px;
+    }
+ }

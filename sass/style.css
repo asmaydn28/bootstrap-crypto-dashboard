@@ -379,4 +379,39 @@ header {
   line-height: 26px;
   text-decoration: underline;
   font-style: solid;
+}
+
+/* Get started in just a few minutes */
+section.minutes {
+  background-image: url(/img/minutes-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.minutes-h5 {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+  line-height: 37.5px;
+}
+
+.minutes-p {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 25.5px;
+}
+
+.divider {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 59%, rgb(12, 102, 238) 79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.divider i {
+  vertical-align: middle;
 }/*# sourceMappingURL=style.css.map */

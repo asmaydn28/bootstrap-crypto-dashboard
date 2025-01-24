@@ -510,7 +510,7 @@ footer ul li {
 }
 
 .form-control, .form-control:focus {
-  border: 1px solid #AAAAAA;
+  border: 1px solid #AAAAAA !important;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;

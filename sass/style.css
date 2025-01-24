@@ -414,4 +414,109 @@ section.minutes {
 
 .divider i {
   vertical-align: middle;
+}
+
+/* questions */
+.questions-h5 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 6%;
+  background: linear-gradient(180deg, rgb(70, 142, 249) 59%, rgb(12, 102, 238) 79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.questions-h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion {
+  --bs-accordion-border-width: none;
+  --bs-accordion-bg: white;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.accordion-header {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.accordion-body {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.questions-button {
+  color: #666666;
+  border: 1px solid #DDDDDD;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* footer */
+footer ul li a {
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+footer ul li {
+  padding: 10px;
+}
+
+.footer-h6 {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer-p {
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-control, .form-control:focus {
+  border: 1px solid #AAAAAA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }/*# sourceMappingURL=style.css.map */

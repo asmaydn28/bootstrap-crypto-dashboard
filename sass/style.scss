@@ -118,8 +118,8 @@ header{
 
 .form-control , .form-control:focus{
     box-shadow: none;
-    border-left: none;
-    border-color:rgba(70,142,249,1);
+    border-left: none !important;
+    border-color:rgba(70,142,249,1) !important;
     border-radius: 22px;
 }
 

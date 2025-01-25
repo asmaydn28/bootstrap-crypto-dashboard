@@ -1,0 +1,81 @@
+@use '../abstracts/variables' as v;
+
+.header-sign-up-today {
+    background: linear-gradient(180deg, v.$color-primary 30%, v.$color-secondary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", serif;
+}
+
+.header-the-world {
+    font-family: "Poppins", serif;
+}
+
+.header-fastest {
+    background: linear-gradient(180deg, v.$color-primary 59%, v.$color-secondary 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-get-started{
+    background: linear-gradient(180deg, v.$color-primary 70%, v.$color-secondary 100%);
+    border: none;
+    &:hover{
+        background: linear-gradient(180deg, v.$color-hover-1 70%, v.$color-hover-2 100%);
+    }
+}
+
+.header-download-app{
+    &:hover{
+        background: linear-gradient(180deg, v.$color-primary 70%, v.$color-secondary 100%);
+    }
+}
+
+@media (min-width: 992px) { 
+    .header-before-after::before{
+        content: url(../img/purple-circle.svg);
+        position: absolute;
+        bottom: -15%;
+        left: -15%;
+    }
+    .header-before-after::after{
+        content: url(../img/purple-star.svg);
+        position: absolute;
+        top: 0%;
+        right: 15%;
+    }
+}
+
+header{
+    font-family: "Poppins", serif;
+    background: linear-gradient(158deg, rgba(247,237,255,1) 0%, rgba(249,253,255,1) 32%, rgba(230,240,255,1) 63%, rgba(249,251,255,1) 100%);
+}
+
+.paragraph{
+    font-family: "Poppins", serif;
+    color: v.$color-text;
+}
+
+@media (max-width: 575.98px) { 
+    .header-download-app , .header-get-started{
+        display: block;
+        width: 100%;
+        
+    }
+ }
+
+ .crypto-container{
+    position: relative;
+    top: -2.5rem;
+    background-color: #FFFFFF;
+}
+.crypto-container img.img-fluid{
+    height: 2rem;
+    
+}
+
+@media (max-width: 992px) { 
+    .border-end{
+        border: none !important;
+    }
+ }

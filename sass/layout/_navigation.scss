@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as v;
+
+button.sign-up {
+    background: linear-gradient(180deg, v.$color-primary 70%, v.$color-secondary 100%);
+    border: none;
+
+    &:hover {
+        background: linear-gradient(180deg, v.$color-hover-1 70%, v.$color-hover-2 100%);
+    }
+}
+
+button.log-ın {
+    border: 5px solid linear-gradient(180deg, v.$color-primary 70%, v.$color-secondary 100%);
+
+    &:hover {
+        background: linear-gradient(180deg, v.$color-primary 70%, v.$color-secondary 100%);
+    }
+}

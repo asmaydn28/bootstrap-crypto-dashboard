@@ -1,120 +1,18 @@
 @charset "UTF-8";
-* {
-  box-sizing: border-box;
-}
-
-.navbar {
-  font-family: "Poppins", serif;
-  font-size: 16px;
-  color: #222222;
-}
-
-hr {
-  opacity: 10%;
-}
-
-button.sign-up {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  border: none;
-}
-button.sign-up:hover {
-  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
-}
-
-button.log-ın {
-  border: 5px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-}
-button.log-ın:hover {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-}
-
-.header-sign-up-today {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 30%, rgb(12, 102, 238) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Poppins", serif;
-}
-
-.header-the-world {
-  font-family: "Poppins", serif;
-}
-
-.header-fastest {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 59%, rgb(12, 102, 238) 79%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.header-get-started {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  border: none;
-}
-.header-get-started:hover {
-  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
-}
-
-.header-download-app:hover {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-}
-
-@media (min-width: 992px) {
-  .header-before-after::before {
-    content: url(../img/purple-circle.svg);
-    position: absolute;
-    bottom: -15%;
-    left: -15%;
-  }
-  .header-before-after::after {
-    content: url(../img/purple-star.svg);
-    position: absolute;
-    top: 0%;
-    right: 15%;
-  }
-}
-header {
-  font-family: "Poppins", serif;
-  background: linear-gradient(158deg, rgb(247, 237, 255) 0%, rgb(249, 253, 255) 32%, rgb(230, 240, 255) 63%, rgb(249, 251, 255) 100%);
-}
-
-.paragraph {
-  font-family: "Poppins", serif;
-  color: #666666;
-}
-
-@media (max-width: 575.98px) {
-  .header-download-app, .header-get-started {
-    display: block;
-    width: 100%;
-  }
-}
-.crypto-container {
-  position: relative;
-  top: -2.5rem;
-  background-color: #FFFFFF;
-}
-
-.crypto-container img.img-fluid {
-  height: 2rem;
-}
-
-@media (max-width: 992px) {
-  .border-end {
-    border: none !important;
-  }
-}
 /*-------------------BUY TRADE------------------*/
 .input-group-text {
   border-color: rgb(70, 142, 249);
   color: rgb(70, 142, 249);
   height: 3.5rem;
   border-radius: 22px;
+  border-right: none !important;
 }
 
-.form-control, .form-control:focus {
-  box-shadow: none;
-  border-left: none !important;
-  border-color: rgb(70, 142, 249) !important;
+section.buy-trade .form-control, .form-control:focus {
   border-radius: 22px;
+  border-color: #2F7CF0 !important;
+  border-left: none !important;
+  box-shadow: none !important;
 }
 
 .vertical {
@@ -127,21 +25,6 @@ header {
   height: 2rem;
   border-right: 1px solid rgb(70, 142, 249);
   margin-left: 3rem;
-}
-
-.btn, .btn:hover, .btn:active {
-  height: 3.5rem;
-  border-color: rgb(70, 142, 249);
-  border-radius: 22px;
-}
-
-.buy-now {
-  width: 100%;
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  border: none;
-}
-.buy-now:hover {
-  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
 }
 
 .buy-trade-h3 {
@@ -220,40 +103,6 @@ header {
   vertical-align: sub;
 }
 
-@media (min-width: 576px) {
-  .nefa-card-button {
-    width: 240px;
-    height: 72px;
-    border-radius: 40px;
-    padding: 10px;
-    gap: 5px;
-    border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  }
-  .nefa-card-button:hover {
-    background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-    width: 240px;
-    height: 72px;
-    border-radius: 40px;
-    padding: 10px;
-    gap: 5px;
-  }
-}
-.nefa-card-button {
-  width: 100%;
-  height: 72px;
-  border-radius: 40px;
-  padding: 10px;
-  gap: 5px;
-}
-.nefa-card-button:hover {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  width: 100%;
-  height: 72px;
-  border-radius: 40px;
-  padding: 10px;
-  gap: 5px;
-}
-
 /* Advanced Trading Tools */
 .advanced-h2 {
   font-family: "Poppins", serif;
@@ -285,53 +134,6 @@ header {
   line-height: 26px;
 }
 
-.advanced-button {
-  width: 100%;
-  height: 72px;
-  border-radius: 40px;
-  padding: 10px;
-  gap: 5px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-}
-.advanced-button:hover {
-  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  width: 100%;
-  height: 72px;
-  border-radius: 40px;
-  padding: 10px;
-  gap: 5px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-}
-
-@media (min-width: 576px) {
-  .advanced-button {
-    width: 240px;
-    height: 72px;
-    border-radius: 40px;
-    padding: 10px;
-    gap: 5px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-  }
-  .advanced-button:hover {
-    background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
-    width: 240px;
-    height: 72px;
-    border-radius: 40px;
-    padding: 10px;
-    gap: 5px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-  }
-}
 .advanced-link {
   font-family: "Poppins", serif;
   font-size: 18px;
@@ -436,6 +238,125 @@ section.minutes {
   color: #000000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #222222;
+}
+
+hr {
+  opacity: 10%;
+}
+
+.btn, .btn:hover, .btn:active {
+  height: 3.5rem;
+  border-color: rgb(70, 142, 249);
+  border-radius: 22px;
+}
+
+.buy-now {
+  width: 100%;
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  border: none;
+}
+.buy-now:hover {
+  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+}
+
+@media (min-width: 576px) {
+  .nefa-card-button {
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+    border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  }
+  .nefa-card-button:hover {
+    background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+  }
+}
+.nefa-card-button {
+  width: 100%;
+  height: 72px;
+  border-radius: 40px;
+  padding: 10px;
+  gap: 5px;
+}
+.nefa-card-button:hover {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  width: 100%;
+  height: 72px;
+  border-radius: 40px;
+  padding: 10px;
+  gap: 5px;
+}
+
+.advanced-button {
+  width: 100%;
+  height: 72px;
+  border-radius: 40px;
+  padding: 10px;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+}
+.advanced-button:hover {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  width: 100%;
+  height: 72px;
+  border-radius: 40px;
+  padding: 10px;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media (min-width: 576px) {
+  .advanced-button {
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: 2px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  }
+  .advanced-button:hover {
+    background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.questions-button {
+  color: #666666;
+  border: 1px solid #DDDDDD;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: white !important;
 }
@@ -470,16 +391,6 @@ section.minutes {
   line-height: 29px;
 }
 
-.questions-button {
-  color: #666666;
-  border: 1px solid #DDDDDD;
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-/* footer */
 footer ul li a {
   text-decoration: none;
   font-family: "Poppins", serif;
@@ -509,7 +420,7 @@ footer ul li {
   line-height: 24px;
 }
 
-.form-control, .form-control:focus {
+footer .form-control, .form-control:focus {
   border: 1px solid #AAAAAA !important;
   font-family: Poppins;
   font-size: 14px;
@@ -519,4 +430,94 @@ footer ul li {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+  border-radius: 22px;
+}
+
+.header-sign-up-today {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 30%, rgb(12, 102, 238) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", serif;
+}
+
+.header-the-world {
+  font-family: "Poppins", serif;
+}
+
+.header-fastest {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 59%, rgb(12, 102, 238) 79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-get-started {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  border: none;
+}
+.header-get-started:hover {
+  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+}
+
+.header-download-app:hover {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+}
+
+@media (min-width: 992px) {
+  .header-before-after::before {
+    content: url(../img/purple-circle.svg);
+    position: absolute;
+    bottom: -15%;
+    left: -15%;
+  }
+  .header-before-after::after {
+    content: url(../img/purple-star.svg);
+    position: absolute;
+    top: 0%;
+    right: 15%;
+  }
+}
+header {
+  font-family: "Poppins", serif;
+  background: linear-gradient(158deg, rgb(247, 237, 255) 0%, rgb(249, 253, 255) 32%, rgb(230, 240, 255) 63%, rgb(249, 251, 255) 100%);
+}
+
+.paragraph {
+  font-family: "Poppins", serif;
+  color: #666666;
+}
+
+@media (max-width: 575.98px) {
+  .header-download-app, .header-get-started {
+    display: block;
+    width: 100%;
+  }
+}
+.crypto-container {
+  position: relative;
+  top: -2.5rem;
+  background-color: #FFFFFF;
+}
+
+.crypto-container img.img-fluid {
+  height: 2rem;
+}
+
+@media (max-width: 992px) {
+  .border-end {
+    border: none !important;
+  }
+}
+button.sign-up {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+  border: none;
+}
+button.sign-up:hover {
+  background: linear-gradient(180deg, rgb(42, 75, 125) 70%, rgb(5, 69, 163) 100%);
+}
+
+button.log-ın {
+  border: 5px solid linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
+}
+button.log-ın:hover {
+  background: linear-gradient(180deg, rgb(70, 142, 249) 70%, rgb(12, 102, 238) 100%);
 }/*# sourceMappingURL=style.css.map */

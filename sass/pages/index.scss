@@ -1,0 +1,250 @@
+@use '../abstracts/variables' as v;
+
+ /*-------------------BUY TRADE------------------*/
+.input-group-text{
+    border-color: v.$color-primary; 
+    color: v.$color-primary;
+    height: 3.5rem;
+    border-radius: 22px;
+    border-right: none !important;
+ }
+ 
+ section.buy-trade .form-control, .form-control:focus{
+     border-radius: 22px;
+     border-color: #2F7CF0 !important;
+     border-left: none !important;
+     box-shadow: none !important;
+ }
+ 
+ .vertical{
+     height: 2rem;
+     border-right: 1px solid v.$color-primary;
+     margin-left: 1rem;
+ }
+ 
+ .vertical2{
+     height: 2rem;
+     border-right: 1px solid v.$color-primary;
+     margin-left: 3rem;
+ }
+ 
+ 
+ 
+ .buy-trade-h3{
+     font-family: "Poppins", serif;
+     font-size: 2rem;
+     line-height: 52px;
+     color: v.$color-text-2;
+ }
+ 
+ .buy-trade-p{
+     font-family: "Poppins", serif;
+     font-size: 16px;
+     color: v.$color-text;
+     font-weight: 400;
+ }
+ 
+ /* Trusted Partners Worldwide */
+ .trusted{
+     background: url(/img/trusted.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .trusted-h3{
+     font-family: "Poppins", serif;
+     font-weight: 500;
+     font-size: 28px;
+     line-height: 42px;
+     color: v.$color-text-2;
+     text-align: center;
+ }
+ 
+ .trusted-p{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: v.$color-text;
+     text-align: center;
+     font-weight: 400;
+     line-height: 27px;
+ }
+ 
+ /* nefa credit card */
+ .nefa-card-h3{
+     font-family: "Poppins", serif;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 52px;
+     color: v.$color-text-2;
+ }
+ 
+ .nefa-card-h3 span{
+     background: linear-gradient(180deg, v.$color-primary 59%, v.$color-secondary 79%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .nefa-card-p{
+     font-family: "Poppins", serif;
+     font-size: 15px;
+     color: v.$color-text;
+     font-weight: 400;
+     line-height: 22.5px;
+ }
+ 
+ .nefa-card ul li{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: v.$color-text-2;
+     font-weight: 400;
+     line-height: 30px;
+ }
+ 
+ .nefa-card ul li::before{
+     content: url(/img/blue-check.svg);
+     margin-right: 10px;
+     vertical-align: sub;
+ }
+ 
+  /* Advanced Trading Tools */
+  .advanced-h2{
+     font-family: "Poppins", serif;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 54px;
+     color: v.$color-text-2;
+ }
+ 
+ .advanced-h2 span{
+     background: linear-gradient(180deg, v.$color-primary 59%, v.$color-secondary 79%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .advanced-h5{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: v.$color-text-2;
+     font-weight: 500;
+     line-height: 27px;
+ }
+ 
+ .advanced-p{
+     font-family: "Poppins", serif;
+     font-size: 16px;
+     color: v.$color-text;
+     font-weight: 400;
+     line-height: 26px;
+ }
+ 
+ 
+ 
+ .advanced-link{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: #2F7CF0;
+     font-weight: 500;
+     line-height: 27px;
+ }
+ 
+ /* security */
+ 
+ .security-h2{
+     font-family: "Poppins", serif;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 54px;
+     color: v.$color-text-2;
+ }
+ 
+ .security-h5{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: v.$color-text-2;
+     font-weight: 500;
+     line-height: 27px;
+ }
+ 
+ .security-h5::before{
+     content: url(/img/blue-check.svg);
+     margin-right: 10px;
+     vertical-align: sub;
+ }
+ 
+ .security-p{
+     font-family: "Poppins", serif;
+     font-size: 16px;
+     color: v.$color-text;
+     font-weight: 400;
+     line-height: 26px;
+ }
+ 
+ .security span{
+     font-family: "Poppins", serif;
+     font-size: 16px;
+     color: v.$color-text;
+     font-weight: 400;
+     line-height: 26px;
+     text-decoration: underline;
+     font-style: solid;
+ }
+ 
+ /* Get started in just a few minutes */
+ section.minutes{
+     background-image: url(/img/minutes-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .minutes-h5{
+     font-family: "Poppins", serif;
+     font-size: 18px;
+     color: v.$color-text-2;
+     font-weight: 500;
+     line-height: 37.5px;
+ }
+ 
+ .minutes-p{
+     font-family: "Poppins", serif;
+     font-size: 17px;
+     color: v.$color-text;
+     font-weight: 400;
+     line-height: 25.5px;
+ }
+ 
+ .divider {
+     background: linear-gradient(180deg, v.$color-primary 59%, v.$color-secondary 79%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 2rem;
+     margin-bottom: 100px;
+ }
+ 
+ .divider i{
+     vertical-align: middle;
+ }
+ 
+ /* questions */
+ .questions-h5{
+     font-family: "Poppins", serif;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 27px;
+     letter-spacing: 6%;
+     background: linear-gradient(180deg, v.$color-primary 59%, v.$color-secondary 79%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .questions-h2{
+     font-family: "Poppins", serif;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 54px;
+     color: #000000;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
